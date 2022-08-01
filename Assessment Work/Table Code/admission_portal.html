@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Portal</title>
+    <meta charset="windows-1252">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css file here -->
+    <link rel="stylesheet" href="../CSS asset/Table.css">
+    <!-- fon-awesome cdn  link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+<body>
+    <h1><i class="fa-solid fa-book-open-reader"></i>  <b>Student Portal</b>  <i class="fa-solid fa-book-open-reader"></i></h1>
+    <h2><u>Admission Now Opens</u></h2>
+    <!-- Data input form -->
+    <div id="form">
+        <div class="container">
+            <div class="tab tab-1">
+                <table id="table">
+
+                    <div class="tab tab-2">
+                        <b>First Name : </b>
+                        <input type="text" name="fname" id="fname" value=" Your First name"><br>
+                        <b>Last Name : </b><input type="text" name="lname" id="lname" value=" Your Last name"><br>
+                        <b>Contact : </b><input type="text" name="Contact" id="Contact"
+                            placeholder="Phone no.(+92)"><br>
+                        <b>Address : </b><input type="text" name="address" id="address" value=" Your Address"><br>
+                        <b>Picture : </b><input type="file" id="image_input"
+                            accept="image/jpeg, image/png, image/jpg"><br>
+
+
+                        <!-- <div class="btn"> -->
+                        <a href="#" class="button" onclick="addHtmlTableRow();"> Add
+                        </a>
+                        <a href="#" class="button" onclick="editHtmlTbleSelectedRow();"> Edit</a>
+                        <a href="#" class="button" onclick="removeSelectedRow();"> Remove</a>
+                    </div>
+            </div>
+            <!-- table data -->
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Contact</th>
+                <th>Address</th>
+                <th>Photo</th>
+            </tr>
+            <tr>
+                <td>Huzaifa </td>
+                <td>Ahmed</td>
+                <td>+923009297219</td>
+                <td>Abc, Karachi, PK</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Huzaifa </td>
+                <td>Ahmed</td>
+                <td>+923009297219</td>
+                <td>Abc, Karachi, PK</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Huzaifa </td>
+                <td>Ahmed</td>
+                <td>+923009297219</td>
+                <td>Abc, Karachi, PK</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Huzaifa </td>
+                <td>Ahmed</td>
+                <td>+923009297219</td>
+                <td>Abc, Karachi, PK</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Huzaifa </td>
+                <td>Ahmed</td>
+                <td>+923009297219</td>
+                <td>Abc, Karachi, PK</td>
+                <td></td>
+            </tr>
+            </table>
+        </div>
+    </div>
+    <!-- data insert function js -->
+    <script src="../js asset/insert.js"></script>
+</body>
+
+</html>
